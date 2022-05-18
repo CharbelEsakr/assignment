@@ -10,10 +10,25 @@
 body {
  background-image: url("background.jpg");
  background-size:100%;
+ width: 1300px;
+ background-position: fixed;
 }
+    div1{
+        color:blue;
+        font-size: larger;
+        font-family:serif;
+        position:fixed; 
+        bottom: 40%; 
+        right: 5%; 
+        width: 400px; 
+        text-align:left;
+    }
     div{
         size: 50px;
-        opacity:0.7;
+        opacity:0.6;
+        height: max-content;
+        width: 1400px;
+        position:fixed;
     }
     .center {
   display: block;
@@ -27,8 +42,6 @@ body {
   bottom: 0;
   width: 100%;
   background-color: rgb(98, 137, 180,0.5);
-  margin-bottom: -1%;
-  color: white;
   text-align: center;
 }
 h1{
@@ -37,27 +50,50 @@ text-align:center;
 .boldfont{
     font-family: sans-serif;
     font-weight: bolder;
-    color: darkcyan;
+    color: rgb(159, 119, 233);
+    font-size: 20;
 }
 .boldfont2{
     font-family: sans-serif;
     font-weight: bolder;
-    color: forestgreen;
+    color: rgb(255, 125, 244);
+    font-size: 20;
 }
 .boldfont3{
     font-family: sans-serif;
     font-weight: bolder;
-    color: sienna;
+    color: rgb(96, 186, 238);
+    font-size: 20;
 }
+ul{
+    position: fixed;
+    bottom: 0; 
+    right: 0; 
+    width: 400px; 
+    margin: 300px;
+    margin-right: 470px;
+    margin-bottom: 140px;
+}
+p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent:150px;
+    text-shadow: 2px 2px 5px rgb(104, 174, 231);
+    font-variant:small-caps;
+    font-size:xx-large;
+}
+
 </style>
 </head>
 <body>
+    <div1>
+    <p><em>Isaiah 40:31 - But those who hope in the Lord will renew their strength. They will soar on <STRONG>wings</STRONG>  like <STRONG>eagles</STRONG>; they will run and not grow weary, they will walk and not be faint.</em></p>
+    </div1>
     <div>
     <img src="./eagle.ico" alt="Eagle image" class="center">
     <img src="./eaglewing.ico" alt="Eagle wings" class="center">
     </div>
-    <hr>
-    <ul class="">
+    <ul>
         <li>
             <h1>
                 <a class="boldfont" href="./Hobbies.html">Hobbies</a>
@@ -76,7 +112,9 @@ text-align:center;
     </ul>
     <p><a href="charbelsakr_2012@hotmail.com">charbelsakr_2012@hotmail.com</a></p>
     <footer class="footer">
-        <p>Author: Charbel Sakr</p>
+        <p>Author: Charbel Sakr,
+            All rights reserved <small>&copy; Copyright 2022 , SaKrCo</small>
+        </p>
     </footer>
 </body>
 </html>
