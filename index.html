@@ -9,13 +9,11 @@
 <style>
 body {
  background-image: url("background.jpg");
- background-size: 100%;
+ background-size:100%;
 }
-    #ul{
-        background-image: url("eaglewing.ico");
-        opacity:0.9;
-        background-size:100%;
-        color: blue; 
+    div{
+        size: 50px;
+        opacity:0.7;
     }
     .center {
   display: block;
@@ -24,7 +22,7 @@ body {
   width: 20%;
 }
 .footer {
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -36,33 +34,49 @@ body {
 h1{
 text-align:center;
 }
+.boldfont{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: darkcyan;
+}
+.boldfont2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: forestgreen;
+}
+.boldfont3{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: sienna;
+}
 </style>
 </head>
 <body>
+    <div>
     <img src="./eagle.ico" alt="Eagle image" class="center">
-    <ul id="ul"class="center">
+    <img src="./eaglewing.ico" alt="Eagle wings" class="center">
+    </div>
+    <hr>
+    <ul class="">
         <li>
             <h1>
-                    <a href="./Hobbies.html"><strong>Hobbies</strong></a>
+                <a class="boldfont" href="./Hobbies.html">Hobbies</a>
             </h1>
         </li>
         <li>
             <h1>
-                <a href="./favoritebooks.html">Favorite books</a>
+                <a class="boldfont2" href="./favoritebooks.html">Favorite books</a>
             </h1>
         </li>
         <li>
             <h1>
-                <a href= "./movies.html">Movies</a>
+                <a class="boldfont3"href= "./movies.html">Movies</a>
             </h1>
         </li>
-        <p>
-            Explore around here about <strong>Hobbies</strong>,<strong>Movies</strong> and <strong>Favorite books</strong>
-        </p>
     </ul>
+    <p><a href="charbelsakr_2012@hotmail.com">charbelsakr_2012@hotmail.com</a></p>
     <footer class="footer">
         <p>Author: Charbel Sakr</p>
-        <p><a href="charbelsakr_2012@hotmail.com">charbelsakr_2012@hotmail.com</a></p>
-      </footer>
+    </footer>
 </body>
 </html>
